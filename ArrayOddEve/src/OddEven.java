@@ -4,8 +4,7 @@ public class OddEven {
 	public static void main(String args[])
 	{
 		
-		System.out.println("hello");
-		Check c = new Check();
+		Check c = new Check(); // object of Check class
 		c.getArray();
 		c.displayArray();
 		c.even();
@@ -20,6 +19,7 @@ class Check
 	int a[]= new int[10];
 	Scanner input= new Scanner(System.in);
 	
+	//method to input array elements
 	void getArray()
 	{
 		System.out.println("Enter array elements --->");
@@ -29,6 +29,7 @@ class Check
 		}
 	}
 
+		// method to display array elements
 	void displayArray()
 	{
 		System.out.println(" array elements --->");
@@ -38,6 +39,8 @@ class Check
 		}
 	}
 	
+	
+	//method to display even numbers
 	void even()
 	{
 		System.out.println(" ");
@@ -51,6 +54,7 @@ class Check
 		}
 	}
 	
+	// method to display odd numbers
 	void odd()
 	{
 		System.out.println("");
